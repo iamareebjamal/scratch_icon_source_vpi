@@ -1,0 +1,66 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout
+        android:id="@+id/abNull"
+        android:layout_width="match_parent"
+        android:layout_height="48.0dip"
+        android:background="#cf000000"
+        android:orientation="horizontal" >
+        
+ <ImageButton
+            android:id="@+id/imageView1"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_margin="5dip"
+            android:layout_gravity="center"
+            android:background="@drawable/icon" />
+
+ <TextView
+     android:id="@+id/abdNull"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_horizontal|center_vertical"
+     android:padding="5.0dip"
+     android:text="@string/theme_title"
+     android:textColor="#ffffff"
+     android:textSize="20sp" />
+
+ <ImageButton
+     android:id="@+id/imageButton1"
+     android:layout_width="30dp"
+     android:layout_height="30dp"
+     android:padding="5dip"
+     android:layout_marginLeft="50dp"
+     android:onClick="info"
+     android:layout_gravity="center_vertical|right"
+     android:background="@drawable/info" />
+
+    </LinearLayout>
+    
+    <com.viewpagerindicator.TitlePageIndicator
+        android:id="@+id/indicator"
+        android:padding="10dip"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:background="#cc000000"
+        android:textColor="#2FB3E3"
+        app:footerColor="#2FB3E3"
+        app:footerLineHeight="1dp"
+        app:footerIndicatorHeight="3dp"
+        app:footerIndicatorStyle="underline"
+        app:selectedColor="#FFFFFF"
+        app:selectedBold="true"
+        />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="misc_icons" translatable="false">
+		<item>misc_divider</item>
+	</string-array>
+	<string-array name="system_icons" translatable="false">
+		<item>system_divider</item>
+	</string-array>
+	<string-array name="games_icons" translatable="false">
+		<item>games_divider</item>
+	</string-array>
+	<string-array name="apps_icons" translatable="false">
+		<item>apps_divider</item>
+	</string-array>
+</resources>
